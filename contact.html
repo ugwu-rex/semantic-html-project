@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+
+<body>
+    <!-- header section with navigation link to home page -->
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <hr>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <!-- form section -->
+            <form action="index.html" method="Get">
+                <label for="fullname">Fullname</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your fullname" required>
+                <br><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <br><br>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <br><br>
+
+                <hr>
+                <label for="gender">Gender</label><br>
+                <input type="radio" id="gender" name="gender" value="male" required>Male <br>
+                <input type="radio" name="gender" value="female">Female
+                <hr>
+
+                <label>Choose Your Hobbies</label><br><br>
+                <input type="checkbox" name="hobbies" value="football">Football<br>
+                <input type="checkbox" name="hobbies" value="cricket">Cricket<br>
+                <input type="checkbox" name="hobbies" value="eating">Eating<br>
+                <input type="checkbox" name="hobbies" value="sleeping">Sleeping<br>
+                <input type="checkbox" name="hobbies" value="coding">Coding<br>
+                <input type="checkbox" name="hobbies" value="gaming">Gaming<br>
+                <input type="checkbox" name="hobbies" value="watching anime">Watching Anime<br>
+                <br><br>
+
+
+                <label for="age">Select your Age Bracket</label>
+                <select name="age" id="age" required>
+                    <option value="" disabled selected>Select your age</option>
+                    <option value="under-18">Under 18</option>
+                    <option value="18-24">18 - 24</option>
+                    <option value="25-34">25 - 34</option>
+                    <option value="35-44">35 - 44</option>
+                    <option value="45-54">45 - 54</option>
+                    <option value="55-64">55 - 64</option>
+                    <option value="65-plus">65 and above</option>
+                </select>
+                <br><br>
+
+                <textarea name="feedback" rows="7" cols="40" placeholder="write a feedback here..."></textarea>
+                <br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div><br>
+    </main>
+
+    <!-- footer section -->
+    <footer>
+        &copy; Soromtochukwu Ugwu
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about-section</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <!-- Linkedln link with logo linking to my profile -->
+            <a href="https://www.linkedin.com/in/soromtochukwu-ugwu-4b9761271/" target="_blank"><img
+                    src="media/images/LI-Logo.png" alt="logo" height="20"></a>
+            <!-- navigation link to contact page -->
+            <a href="contact.html">Contact</a>
+            <hr>
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- About Section: Personal introduction -->
+        <section id="abt-me">
+            <h1>About Section</h1>
+            <p> My name is <strong>Ugwu Soromtochukwu Rex</strong>, I am someone who has always been drawn to
+                understanding how things work behind the scenes. That curiosity is what pushed me to return to the
+                basics of web development a few weeks ago.
+                I wanted to take my time and fully understand what I am getting into in backend development,
+                especially because the first time I tried learning it, the concepts did not really stick.
+                Coming back to it with a clearer mind has helped me appreciate the process more,
+                and it feels good to finally see things start to make sense.</p>
+        </section>
+
+        <!-- Hobbies Section: including a video, audio, and an embedded YouTube video -->
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+            <p>
+                I enjoy eating sumptuous delicacies, letting my fingers move freely across the keyboard, and messing
+                around with AI models just to see how good my prompting is. I also like watching anime and anime clips
+                whenever I want something light and entertaining.
+            </p><br><br>
+
+            <!-- Anime clip -->
+            <figure id="anime-clip">
+                <video controls style="width:100%;">
+                    <source src="media/videos/anime_clip.mp4" type="video/mp4">
+                </video>
+                <figcaption>
+                    This is a short anime clip from Death Note, the first anime I ever watched.
+                </figcaption>
+            </figure>
+            <hr>
+
+            <!-- audio element with a speech from one of the greatest anime characters of all time, Madara Uchiha from Naruto Shippuden. -->
+            <figure id="anime-speech">
+                <audio controls>
+                    <source src="media/audios/Madara_speech.mp3" type="audio/mpeg">
+                </audio>
+                <figcaption>Madara's speech, one of the greatest speeches in anime.</figcaption>
+            </figure>
+            <hr><br>
+
+            <!-- Embedded YouTube video -->
+            <div>
+                <iframe style="width:100%;" height="576" src="https://www.youtube.com/embed/rKuPNEBWPlk"
+                    title="THIS EGO IS WHAT YOU THAUGHT US" loading="lazy" allowfullscreen></iframe>
+            </div><br><br>
+        </section>
+
+        <!-- Article about why I enjoy watching anime -->
+        <article id="anime">
+            <h3>Why I Enjoy Watching Anime</h3>
+            Watching anime is more than just entertainment for me. It has a way of mixing deep life lessons with
+            creativity, and sometimes a single quote can hit harder than a whole book. The stories sharpen your
+            thinking, the characters teach you perspective, and the emotions remind you that even fictional worlds can
+            carry real knowledge.
+        </article><br><br>
+
+        <!-- School section describing my school -->
+        <section id="my-school">
+            <h2>My School</h2>
+            <p>
+                I study at the University of Nigeria, Nsukka, where I am currently in my 300 level in the
+                Department of Computer Science. Being here has shaped the way I think and learn,
+                especially as I prepare to go for my IT.
+                The environment pushes me to stay curious and stay committed to understanding the deeper parts of
+                technology.
+                It has been a place that keeps challenging me to grow and keeps reminding me why I chose this path in
+                the first place.
+            </p>
+        </section>
+
+        <!-- Aside, giving additional information -->
+        <aside id="school-aside">
+            Studying at the University of Nigeria, Nsukka has been a mix of growth and reality checks. The
+            school pushes you in ways you do not always expect, and the academic pressure can be intense, but it also
+            teaches you how to stay focused and keep moving. Even with the challenges that come with the
+            environment, there is a strong sense of community among students that makes the experience worth it.
+        </aside>
+
+        <!-- Frequently asked question section -->
+        <section id="faq">
+            <h3>Frequently Asked Questions About UNN</h3>
+            <details>
+                <summary>When was UNN founded?</summary>
+                <p>UNN was founded in 1960 and is known as Nigeria's first full fledged indigenous university.
+                </p>
+            </details>
+
+            <details>
+                <summary>How many campuses does UNN have?</summary>
+                <p>UNN operates across three campuses which are Nsukka, Enugu, and Ituku Ozalla.</p>
+            </details>
+
+            <details>
+                <summary>How many faculties and departments are in UNN?</summary>
+                <p>The university has 17 faculties and over 108 departments.</p>
+            </details>
+
+            <details>
+                <summary>What is the student population?</summary>
+                <p>UNN has more than 36,000 students across its campuses.</p>
+            </details>
+
+            <details>
+                <summary>Where can students find academic information?</summary>
+                <p>
+                    Students can access academic calendars, course information, and schedules through the
+                    official UNN student portal.
+                </p>
+            </details>
+        </section><br><br>
+
+        <!-- Embedded Google Map -->
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7922.433913238244!2d7.399631237637142!3d6.864583974504943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044e7defeff9725%3A0xffb8a28c30660e7d!2sUniversity%20of%20Nigeria%2C%20UNN%20Nsukka!5e0!3m2!1sen!2sng!4v1780068127197!5m2!1sen!2sng"
+                style="width:100%; border:0;" height="450" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-label">Location of University of Nigeria, Nsukka.</div>
+        </div><br>
+
+    </main>
+
+    <!-- footer section -->
+    <footer>
+        &copy; Soromtochukwu Ugwu
+    </footer>
+</body>
+
+</html>
