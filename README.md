@@ -1,103 +1,74 @@
 # Project Structure
-/project-folder
-│── index.html
-│── contact.html
-│── media/
-│     ├── images/
-│     ├── videos/
-│     └── audios/
-│── README.md
 
-## index.html (Home Page)
+```text
+/project-folder
+├── index.html
+├── contact.html
+├── media/
+│   ├── images/
+│   ├── videos/
+│   └── audios/
+└── README.md
+```
+
+---
+
+## Index Page (`index.html`)
+
 The Home Page showcases the use of semantic HTML5 elements and multimedia content.
 
 ### Features Included
-- Semantic elements:
+*   **Semantic Elements:** `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, and `<footer>`
+*   **About Section:** Describes personal background and interests.
+*   **Sidebar (`<aside>`):** Highlights additional supplementary information.
+*   **Media Elements:**
+    *   One localized video clip.
+    *   One localized audio clip.
+*   **Interactive Elements:** An FAQ section built using `<details>` and `<summary>`.
+*   **Embedded Content:**
+    *   Google Map showing the University of Nigeria, Nsukka.
+    *   YouTube video embed.
+*   **Navigation Links:**
+    *   Contact Page (`contact.html`)
+    *   LinkedIn Profile
 
-  - <header>, <nav>, <main>, <section>, <article>, <aside>, <footer>
+---
 
-- About Section describing personal background and interests
+## Contact Page (`contact.html`)
 
-- Sidebar (aside) with additional information
+The Contact Page contains a fully functional HTML form demonstrating various form elements and attributes.
 
-- Media Elements
-
-  - One video clip
-
-  - One audio clip
-
-- Interactive Elements
-
-- FAQ section using <details> and <summary>
-
-- Embedded Content
-
-- Google Map showing the University of Nigeria, Nsukka
-
-- YouTube video
-
-- Navigation links to:
-
-  - Contact (contact.html)
-
-  - linkedln profile
-
-## Page 2 — contact.html (Contact Form)
-The Contact Page contains a fully functional HTML form demonstrating form elements and attributes.
-
-### Form Includes
-
-  - Full Name (text input)
-
-  - Email (email input)
-
-  - Password (password input)
-
-  - Gender (radio buttons)
-
-  - Hobbies (checkboxes)
-
-  - Age bracket (dropdown <select>)
-
-  - Feedback message (<textarea>)
-
-  - Submit button
+### Form Inputs Included
+*   **Full Name:** Text input
+*   **Email:** Email validation input
+*   **Password:** Hidden password input
+*   **Gender:** Radio selection buttons
+*   **Hobbies:** Multiple choice checkboxes
+*   **Age Bracket:** Dropdown list selection using `<select>`
+*   **Feedback Message:** Large text area using `<textarea>`
+*   **Submission:** Standard submit button
 
 ### Form Attributes Used
-  - action
+*   `action` / `method`
+*   `placeholder` / `required`
+*   `name` / `value` / `type`
 
-  - method
+---
 
-  - placeholder
+## 🧭 Site Navigation
 
-  - required
+Both pages include a consistent navigation bar inside the `<header>` section, allowing users to seamlessly move between:
+*   **Home** (`index.html`)
+*   **Contact** (`contact.html`)
 
-  - name
+---
 
-  - value
+## 🎯 Learning Objectives Demonstrated
 
-  - type
-
-### Navigation
-Both pages include a navigation bar inside the <header> section, allowing users to move between:
-
-- Home
-
-- Contact
-
-### Learning Objectives Demonstrated
-- This project covers:
-
-  - HTML5 semantic structure
-
-  - Navigation between pages
-
-  - HTML forms and input types
-
-  - Form attributes and validation
-
-  - Media embedding (audio, video, YouTube, Google Maps)
-
-  - Interactive elements (<details> and <summary>)
-
-  - Clean and readable HTML formatting
+This project covers the core foundational concepts of web design:
+*   HTML5 semantic layout structure.
+*   Hyperlink navigation between local pages.
+*   HTML forms, input validation, and native attributes.
+*   Media embedding (Audio, Video, YouTube iframe, Google Maps iframe).
+*   Interactive native elements (`<details>` and `<summary>`).
+*   Clean, valid, and readable HTML formatting.
